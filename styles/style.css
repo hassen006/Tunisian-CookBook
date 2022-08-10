@@ -1,0 +1,49 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.addFoodBackgroud{
+   background-image: url(/pic/hd-wallpaper-gb47c24102_1920.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+label{
+    color:yellow;
+    font-weight:bold
+}
+
+.food{
+    background-image: linear-gradient(to bottom,rgb(228, 228, 228),rgb(111, 156, 110));
+
+}
+a{
+	text-decoration: none;
+}
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
+
+  .autohide{
+		position: fixed;
+	    top: 0;
+	    right: 0;
+	    left: 0;
+	    width: 100%;
+	    z-index: 1030;
+	}
+	.scrolled-down{
+		transform:translateY(-100%); transition: all 0.3s ease-in-out;
+	}
+	.scrolled-up{
+		transform:translateY(0); transition: all 0.3s ease-in-out;
+	}
+	
+	.card-img-top {
+		width: 100%;
+		height: 15vw;
+		object-fit: cover;
+	}
